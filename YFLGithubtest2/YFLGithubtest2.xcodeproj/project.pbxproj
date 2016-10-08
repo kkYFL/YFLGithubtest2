@@ -15,6 +15,7 @@
 		3AF941C01DA8EC1100ED79BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AF941BE1DA8EC1100ED79BB /* LaunchScreen.storyboard */; };
 		3AF941CB1DA8EC1200ED79BB /* YFLGithubtest2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AF941CA1DA8EC1200ED79BB /* YFLGithubtest2Tests.m */; };
 		3AF941D61DA8EC1200ED79BB /* YFLGithubtest2UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AF941D51DA8EC1200ED79BB /* YFLGithubtest2UITests.m */; };
+		3AF941E51DA8ED4800ED79BB /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AF941E41DA8ED4800ED79BB /* Dog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		3AF941D11DA8EC1200ED79BB /* YFLGithubtest2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YFLGithubtest2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AF941D51DA8EC1200ED79BB /* YFLGithubtest2UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YFLGithubtest2UITests.m; sourceTree = "<group>"; };
 		3AF941D71DA8EC1200ED79BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AF941E31DA8ED4800ED79BB /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		3AF941E41DA8ED4800ED79BB /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				3AF941BE1DA8EC1100ED79BB /* LaunchScreen.storyboard */,
 				3AF941C11DA8EC1100ED79BB /* Info.plist */,
 				3AF941B01DA8EC1100ED79BB /* Supporting Files */,
+				3AF941E31DA8ED4800ED79BB /* Dog.h */,
+				3AF941E41DA8ED4800ED79BB /* Dog.m */,
 			);
 			path = YFLGithubtest2;
 			sourceTree = "<group>";
@@ -272,6 +277,7 @@
 			files = (
 				3AF941B81DA8EC1100ED79BB /* ViewController.m in Sources */,
 				3AF941B51DA8EC1100ED79BB /* AppDelegate.m in Sources */,
+				3AF941E51DA8ED4800ED79BB /* Dog.m in Sources */,
 				3AF941B21DA8EC1100ED79BB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
