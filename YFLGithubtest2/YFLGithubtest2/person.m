@@ -9,5 +9,12 @@
 #import "person.h"
 
 @implementation person
-
+-(instancetype)init
+{
+    self=[super init];
+    if (self) {
+        
+    }
+    return self;
+}
 @end
